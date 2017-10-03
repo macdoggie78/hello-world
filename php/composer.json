@@ -3,8 +3,9 @@
         "phpunit/phpunit": "^6.3"
     },
     "autoload": {
-        "psr-0": {
-            "MacDoggie\\": "src/"
+        "psr-4": {
+            "MacDoggie\\HelloWorld": "src/",
+            "MacDoggie\\HelloWorldTests": "test/"
         }
     }
 

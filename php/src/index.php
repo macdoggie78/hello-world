@@ -1,5 +1,8 @@
 <?php
+declare(strict_types=1);
 
-namespace MacDoggie;
+namespace MacDoggie\HelloWorld;
 
-echo (new World\Hello())->saySomething();
+use MacDoggie\HelloWorld\World\Hello;
+
+echo (new Hello())->saySomething();
